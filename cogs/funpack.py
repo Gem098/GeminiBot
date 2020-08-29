@@ -22,7 +22,7 @@ class FunPack(commands.Cog):
         await ctx.send('``This package is not required. To have it removed, contact a GeminiBot Developer.``')
         await ctx.send('``This package hosts (0) event listeners.``')
         await ctx.send('``This package hosts (14) commands, each with 3 second cool-downs.``')
-        await ctx.send('``Package Author: Gemini#0324``')
+        await ctx.send('``Package Author: Gem™#5781``')
 
     # commands below.
     @commands.command(aliases=['8ball'])
