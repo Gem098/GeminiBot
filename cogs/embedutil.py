@@ -45,12 +45,12 @@ class EmbedUtil(commands.Cog):
     @commands.cooldown(rate=1, per=10, type=commands.BucketType.user)
     async def embedutil(self, ctx):
         """ EmbedUtil Package Information Command. """
-        await ctx.send('```Package: EmbedUtil Version:1.0.1 is loaded!```')
-        await ctx.send('```About PKG: Supplies GeminiBot users with the ability to make stylish custom embeds.```')
-        await ctx.send('```This package is not required however it is recommended to keep it loaded.```')
-        await ctx.send('```This package hosts (0) event listeners. ```')
-        await ctx.send('```This package hosts (2) commands.```')
-        await ctx.send('```Package Author: Gem™#5781```')
+        await ctx.send('``Package: EmbedUtil Version:1.0.1 is loaded!``')
+        await ctx.send('``About PKG: Supplies GeminiBot users with the ability to make stylish custom embeds.``')
+        await ctx.send('``This package is not required however it is recommended to keep it loaded.``')
+        await ctx.send('``This package hosts (0) event listeners. ``')
+        await ctx.send('``This package hosts (2) commands.``')
+        await ctx.send('``Package Author: Gem™#5781``')
 
     @commands.command(
         name='embed',
