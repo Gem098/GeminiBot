@@ -61,7 +61,7 @@ class BaseTools(commands.Cog):
         await ctx.send('``This package is required to enable basic functionality!``')
         await ctx.send('``This package hosts (2) of the audit event listeners. ``')
         await ctx.send('``This package hosts (7) commands.``')
-        await ctx.send('``Package Author: Gemini#0324``')
+        await ctx.send('``Package Author: Gem™#5781``')
 
     @commands.command(aliases=['changeprefix'])
     @commands.has_permissions(administrator=True)
