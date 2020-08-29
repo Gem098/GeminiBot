@@ -50,7 +50,7 @@ class EmbedUtil(commands.Cog):
         await ctx.send('```This package is not required however it is recommended to keep it loaded.```')
         await ctx.send('```This package hosts (0) event listeners. ```')
         await ctx.send('```This package hosts (2) commands.```')
-        await ctx.send('```Package Author: Gemini#0324```')
+        await ctx.send('```Package Author: Gem™#5781```')
 
     @commands.command(
         name='embed',
