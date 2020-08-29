@@ -94,7 +94,7 @@ class voice(commands.Cog):
                               f'**Remove permission and the user from your channel using the following command:**\n\n`.voice reject @person`\n\n**Example:** `.voice reject Gem™#5781`\n\n',
                         inline='false')
         embed.set_footer(
-            text='Renegade voice module by Gem™#5781 ')
+            text='Voice module by Gem™#5781 ')
         await ctx.channel.send(embed=embed)
 
     @commands.group()
