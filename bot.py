@@ -282,4 +282,4 @@ async def queue(ctx, url: str):
     print("Song added to queue\n")
 
 
-client.run('mfa.qTm65Uxz65NXTPbsvYZsqk9EVAptbFjhscxXkOtbK8cSft2KVvD8sS-p4nDjLmXkezrWLO3a4iZMaXRlRvGF', reconnect=True)
+client.run('TOKEN', reconnect=True)
