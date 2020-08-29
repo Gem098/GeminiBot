@@ -89,12 +89,12 @@ class voice(commands.Cog):
                               f'**Unlock your channel by using the following command:**\n\n`.voice unlock`\n\n------------\n\n'
                               f'**Change your channel name by using the following command:**\n\n`.voice name <name>`\n\n**Example:** `.voice name Renegade`\n\n------------\n\n'
                               f'**Change your channel limit by using the following command:**\n\n`.voice limit number`\n\n**Example:** `.voice limit 2`\n\n------------\n\n'
-                              f'**Give users permission to join by using the following command:**\n\n`.voice permit @person`\n\n**Example:** `.voice permit Jerhyn Huey#3286`\n\n------------\n\n'
+                              f'**Give users permission to join by using the following command:**\n\n`.voice permit @person`\n\n**Example:** `.voice permit Gem™#5781`\n\n------------\n\n'
                               f'**Claim ownership of channel once the owner has left:**\n\n`.voice claim`\n\n**Example:** `.voice claim`\n\n------------\n\n'
-                              f'**Remove permission and the user from your channel using the following command:**\n\n`.voice reject @person`\n\n**Example:** `.voice reject Jerhyn Huey#3286`\n\n',
+                              f'**Remove permission and the user from your channel using the following command:**\n\n`.voice reject @person`\n\n**Example:** `.voice reject Gem™#5781`\n\n',
                         inline='false')
         embed.set_footer(
-            text='Renegade voice module by Jerhyn Huey#3286 ')
+            text='Renegade voice module by Gem™#5781 ')
         await ctx.channel.send(embed=embed)
 
     @commands.group()
